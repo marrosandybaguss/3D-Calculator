@@ -1,0 +1,19 @@
+#body4 span {
+	margin-right: 10px;
+}
+
+#body4 span:nth-child(2) {
+	margin-top: 15px;
+}
+
+#body4 span:nth-child(2) div{
+	background-color: red;
+	width: 80px;
+	text-align: center;
+	padding: 3px 5px 3px 5px;
+	border: 2px solid #D3D3D3;
+}
+
+#body4 span:last-child {
+	margin-top: 8px;
+}

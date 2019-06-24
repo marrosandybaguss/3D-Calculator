@@ -1,0 +1,15 @@
+#body4 span {
+	margin-right: 10px;
+}
+
+#body4 span:first-child {
+	margin-top: 10px;
+}
+
+#body4 span:nth-child(2) div{
+	background-color: red;
+	width: 80px;
+	text-align: center;
+	padding: 3px 5px 3px 5px;
+	border: 2px solid #D3D3D3;
+}

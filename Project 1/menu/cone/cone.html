@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cone Calculator</title>
+	<link rel="stylesheet" type="text/css" href="../../headingStyle.css">
+	<link rel="stylesheet" type="text/css" href="../menuStyle.css">
+	<link rel="stylesheet" type="text/css" href="coneStyle.css">
+</head>
+<body>
+	<div class="heading">
+		<span id="logo">Calculator<b>.sandy</b></span>
+	</div>
+	<h1 class="title"><strong>Kerucut</strong></h1>
+	<div id="body1">
+		<span>
+			<p align="justify">Dalam geometri, kerucut adalah sebuah limas istimewa yang beralas lingkaran. Kerucut memiliki 2 sisi dan 1 rusuk. Sisi tegak kerucut tidak berupa segitiga tapi berupa bidang miring yang disebut selimut kerucut.</p>
+		</span>
+	</div>
+	<h2 class="title">Rumus-rumus Kerucut</h2>
+	<div id="body2" class="bodyStyle">
+		<span>
+			<img src="kerucut.svg">
+		</span>
+		<span>	
+			<p>	V = $\frac{1}{3}.&#960.r^2$ </p>
+			<p>	L<sub>a</sub> = &#960.r<sup>2</sup> </p>
+			<p>	L<sub>s</sub> = &#960.r.s </p>
+			<p> s = $\sqrt {r^2 + t^2}$</p>
+			<p> L = L<sub>a</sub> + L<sub>s</sub> = &#960r(r + s) </p> 
+		</span>
+	</div>
+	<div id="body3" class="bodyStyle">	
+		<span>	
+			<p>	V ~ volume </p>
+			<p>	L ~ luas permukaan </p>
+			<p> L<sub>a</sub> ~ luas alas </p>
+			<p> L<sub>s</sub> ~ luas selimut </p>
+			<p> r ~ jari-jari </p>
+		</span>
+		<span>	
+			<p>	t ~ tinggi </p>
+			<p>	d ~ diameter </p>
+			<p> s ~ garis pelukis </p>
+			<p> P ~ titik pusat </p>
+			<p> V' ~ puncak kerucut </p>
+		</span>
+	</div>
+	<h2 class="title">Kalkulator Kerucut</h2>
+	<div id="body4" class="bodyStyle">	
+		<span>
+			<form>
+				<fieldset>
+					<legend>Masukkan nilai</legend>
+					<label for="jari-jari"> r </label>
+					<input type="number" id="jari-jari"><br>
+					<label for="tinggi"> t </label>
+					<input type="number" id="tinggi"><br>
+					<label for="selimut"> s </label>
+					<input type="number" id="selimut">
+				</fieldset>
+			</form>			
+		</span>
+		<span>
+			<div>Hitung</div>
+			<br>
+			<div>Reset</div>
+		</span>
+		<span>
+			<form>
+				<fieldset>
+					<legend>Hasil</legend>
+					<label for="volume">V</label>
+					<input type="number" id="volume">
+					<br>
+					<label for="luasPermukaan">L</label>
+					<input type="number" name="luasPermukaan">
+				</fieldset>
+			</form>
+		</span>	
+	</div>
+	<br><br><br>
+
+	<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+		  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+		});
+	</script>
+	<script type="text/javascript" async
+	  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+	</script>
+</body>
+</html>

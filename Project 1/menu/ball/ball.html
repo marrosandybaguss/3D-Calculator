@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ball Calculator</title>
+	<link rel="stylesheet" type="text/css" href="../../headingStyle.css">
+	<link rel="stylesheet" type="text/css" href="../menuStyle.css">
+	<link rel="stylesheet" type="text/css" href="ballStyle.css">
+</head>
+<body>
+	<div class="heading">
+		<span id="logo">Calculator<b>.sandy</b></span>
+	</div>
+	<h1 class="title"><strong>Bola</strong></h1>
+	<div id="body1">
+		<span>
+			<p align="justify">Dalam geometri, bola adalah bangun ruang tiga dimensi yang dibentuk oleh tak hingga lingkaran berjari-jari sama panjang dan berpusat pada satu titik yang sama. Bola hanya memiliki 1 sisi.</p>
+		</span>
+	</div>
+	<h2 class="title">Rumus-rumus Bola</h2>
+	<div id="body2" class="bodyStyle">
+		<span>
+			<img src="bola.svg">
+		</span>
+		<span>	
+			<br><br><br>
+			V = $\frac{4}{3}$.&#960.r<sup>3</sup>
+			<p>	L = 4.&#960.r<sup>2</sup></p>
+			<p>	d = 2r</p>
+		</span>
+	</div>
+	<div id="body3" class="bodyStyle">	
+		<span>	
+			<p>	V ~ volume </p>
+			<p>	L ~ luas permukaan </p>
+			<p>	d ~ diameter </p>
+		</span>
+		<span>	
+			<p>	r ~ jari-jari </p>
+			<p>	P ~ titik pusat </p>
+		</span>
+	</div>
+	<h2 class="title">Kalkulator Bola</h2>
+	<div id="body4" class="bodyStyle">	
+		<span>
+			<form>
+				<fieldset>
+					<legend>Masukkan nilai</legend>
+					<label for="jari-jari"> r </label>
+					<input type="number" id="jari-jari">
+				</fieldset>
+			</form>			
+		</span>
+		<span>
+			<div>Hitung</div>
+			<br>
+			<div>Reset</div>
+		</span>
+		<span>
+			<form>
+				<fieldset>
+					<legend>Hasil</legend>
+					<label for="volume">V</label>
+					<input type="number" id="volume">
+					<br>
+					<label for="luasPermukaan">L</label>
+					<input type="number" name="luasPermukaan">
+				</fieldset>
+			</form>
+		</span>	
+	</div>
+	<br><br><br>
+
+	<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+		  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+		});
+	</script>
+	<script type="text/javascript" async
+	  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+	</script>
+</body>
+</html>

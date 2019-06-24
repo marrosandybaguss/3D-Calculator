@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cube Calculator</title>
+	<link rel="stylesheet" type="text/css" href="../../headingStyle.css">
+	<link rel="stylesheet" type="text/css" href="../menuStyle.css">
+	<link rel="stylesheet" type="text/css" href="cubeStyle.css">
+</head>
+<body>
+	<div class="heading">
+		<span id="logo">Calculator<b>.sandy</b></span>
+	</div>
+	<h1 class="title"><strong>Kubus</strong></h1>
+	<div id="body1">
+		<span>
+			<p align="justify">Kubus adalah bangun ruang tiga dimensi yang dibatasi oleh enam bidang sisi yang kongruen berbentuk bujur sangkar. Kubus memiliki 6 sisi, 12 rusuk dan 8 titik sudut. Kubus juga disebut bidang enam beraturan, selain itu juga merupakan bentuk khusus dalam prisma segiempat.</p>
+		</span>
+	</div>
+	<h2 class="title">Rumus-rumus Kubus</h2>
+	<div id="body2" class="bodyStyle">
+		<span>
+			<img src="kubus.svg">
+		</span>
+		<span>	
+			<p>	V = a.a.a = a<sup>3</sup></p>
+			<p>	L = 6.a.a = 6a<sup>2</sup></p>
+			<p>	D = a.$\sqrt 3$ </p>
+			<p> d = a.$\sqrt 2$ </p>	
+		</span>
+	</div>
+	<div id="body3" class="bodyStyle">	
+		<span>	
+			<p>	V ~ volume </p>
+			<p>	L ~ luas permukaan </p>
+			<p>	a ~ sisi-sisi</p>
+		</span>
+		<span>	
+			<p>	D ~ diagonal ruang </p>
+			<p>	d ~ diagonal bidang </p>
+		</span>
+	</div>
+	<h2 class="title">Kalkulator Kubus</h2>
+	<div id="body4" class="bodyStyle">	
+		<span>
+			<form>
+				<fieldset>
+					<legend>Masukkan nilai</legend>
+					<label for="sisi"> a </label>
+					<input type="number" id="sisi">
+				</fieldset>
+			</form>			
+		</span>
+		<span>
+			<div>Hitung</div>
+			<br>
+			<div>Reset</div>
+		</span>
+		<span>
+			<form>
+				<fieldset>
+					<legend>Hasil</legend>
+					<label for="volume">V</label>
+					<input type="number" id="volume">
+					<br>
+					<label for="luasPermukaan">L</label>
+					<input type="number" name="luasPermukaan">
+				</fieldset>
+			</form>
+		</span>	
+	</div>
+	<br><br><br>
+
+	<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+		  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+		});
+	</script>
+	<script type="text/javascript" async
+	  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+	</script>
+</body>
+</html>

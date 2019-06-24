@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Balok Calculator</title>
+	<link rel="stylesheet" type="text/css" href="../../headingStyle.css">
+	<link rel="stylesheet" type="text/css" href="../menuStyle.css">
+	<link rel="stylesheet" type="text/css" href="balokStyle.css">
+</head>
+<body>
+	<div class="heading">
+		<span id="logo">Calculator<b>.sandy</b></span>
+	</div>
+	<h1 class="title"><strong>Balok</strong></h1>
+	<div id="body1">
+		<span>
+			<p align="justify">Balok adalah bangun ruang tiga dimensi yang dibentuk oleh tiga pasang persegi atau persegi panjang, dengan paling tidak satu pasang di antaranya berukuran berbeda. Balok memiliki 6 sisi, 12 rusuk dan 8 titik sudut. Balok yang dibentuk oleh enam persegi sama dan sebangun disebut sebagai kubus.</p>
+		</span>
+	</div>
+	<h2 class="title">Rumus-rumus Balok</h2>
+	<div id="body2" class="bodyStyle">
+		<span>
+			<img src="balok.svg">
+		</span>
+		<span>	
+			<p>	V = a.b.c </p>
+			<p>	L = 2.(ab + ac + bc) </p>
+			<p>	d = $\sqrt{a^2 + b^2 + c^2}$</p>
+		</span>
+	</div>
+	<div id="body3" class="bodyStyle">	
+		<span>	
+			<p>	V ~ volume </p>
+			<p>	L ~ luas permukaan </p>
+		</span>
+		<span>	
+			<p>	a,b,c ~ sisi-sisi </p>
+			<p>	d ~ diagonal ruang </p>
+		</span>
+	</div>
+	<h2 class="title">Kalkulator Balok</h2>
+	<div id="body4" class="bodyStyle">	
+		<span>
+			<form>
+				<fieldset>
+					<legend>Masukkan nilai</legend>
+					<label for="sisi1"> a </label>
+					<input type="number" id="sisi1"><br>
+					<label for="sisi2"> b </label>
+					<input type="number" id="sisi2"><br>
+					<label for="sisi3"> c </label>
+					<input type="number" id="sisi3">
+				</fieldset>
+			</form>			
+		</span>
+		<span>
+			<div>Hitung</div>
+			<br>
+			<div>Reset</div>
+		</span>
+		<span>
+			<form>
+				<fieldset>
+					<legend>Hasil</legend>
+					<label for="volume">V</label>
+					<input type="number" id="volume">
+					<br>
+					<label for="luasPermukaan">L</label>
+					<input type="number" name="luasPermukaan">
+				</fieldset>
+			</form>
+		</span>	
+	</div>
+	<br><br><br>
+
+	<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+		  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+		});
+	</script>
+	<script type="text/javascript" async
+	  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+	</script>
+</body>
+</html>

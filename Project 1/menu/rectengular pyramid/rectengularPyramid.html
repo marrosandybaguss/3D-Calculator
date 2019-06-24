@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rectengular Pyramid Calculator</title>
+	<link rel="stylesheet" type="text/css" href="../../headingStyle.css">
+	<link rel="stylesheet" type="text/css" href="../menuStyle.css">
+	<link rel="stylesheet" type="text/css" href="limasStyle.css">
+</head>
+<body>
+	<div class="heading">
+		<span id="logo">Calculator<b>.sandy</b></span>
+	</div>
+	<h1 class="title"><strong>Limas</strong></h1>
+	<div id="body1">
+		<span>
+			<p align="justify">Limas adalah bangun ruang yang mempunyai alas berbentuk segi n (segitiga, segi empat, atau segi lima) dan bidang sisi tegaknya mempunyai bentuk segitiga yang berpotongan pada satu titik. Nah titik potong dari sisi-sisi tegak limas di sebut dengan titik puncak limas.</p>
+		</span>
+	</div>
+	<h2 class="title">Rumus-rumus Limas</h2>
+	<div id="body2" class="bodyStyle">
+		<span>
+			<img src="limas.svg">
+		</span>
+		<span>	
+			<p>	V = $\frac{1}{3}$.L<sub>a</sub>.t </p>
+			<p>	L<sub>a</sub> = a<sup>2</sup> </p>
+			<p> L = L<sub>a</sub> + L<sub>s</sub> </p>
+			<p> t = s.sin &alpha;</p> 
+		</span>
+	</div>
+	<div id="body3" class="bodyStyle">	
+		<span>	
+			<p>	V ~ volume </p>
+			<p>	L ~ luas permukaan </p>
+			<p> L<sub>a</sub> ~ luas alas </p>
+			<p> L<sub>s</sub> ~ luas selimut </p>
+		</span>
+		<span>	
+			<p>	t ~ tinggi </p>
+			<p> s ~ panjang selimut </p>
+			<p> a ~ sisi alas </p>
+			<p> &alpha; ~ sudut yang dibentuk<br> &nbsp; &nbsp; oleh sisi dan alas </p>
+		</span>
+	</div>
+	<h2 class="title">Kalkulator Limas</h2> 
+	<div id="body4" class="bodyStyle">	
+		<span>
+			<form>
+				<fieldset>
+					<legend>Masukkan nilai</legend>
+					<label for="sisiAlas"> a </label>
+					<input type="number" id="sisiAlas"><br>
+					<label for="tinggi"> t </label>
+					<input type="number" id="tinggi"><br>
+					<label for="selimut"> s </label>
+					<input type="number" id="selimut">
+				</fieldset>
+			</form>			
+		</span>
+		<span>
+			<div>Hitung</div>
+			<br>
+			<div>Reset</div>
+		</span>
+		<span>
+			<form>
+				<fieldset>
+					<legend>Hasil</legend>
+					<label for="volume">V</label>
+					<input type="number" id="volume">
+					<br>
+					<label for="luasPermukaan">L</label>
+					<input type="number" name="luasPermukaan">
+				</fieldset>
+			</form>
+		</span>	
+	</div>
+	<br><br><br>
+
+	<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+		  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+		});
+	</script>
+	<script type="text/javascript" async
+	  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+	</script>
+</body>
+</html>
